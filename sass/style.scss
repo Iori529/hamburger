@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+@use "./Foundation/_base.scss" as  *;
+@use "./Foundation/_variable.scss" as *;
+@use "./Layout/l-header" as *;
+@use "./Layout/l-footer" as *;
+@use "./Layout/l-main" as *;
+@use "./Layout/l-sideber" as *;
+@use "./Object/Project/p-header" as *;
+@use "./Object/Project/p-search-form" as *;
+@use "./Object/Project/p-dammy" as *;
+@use "./Object/Project/p-flexbox" as *;
+@use "./Object/Project/p-text-take-out" as *;
+@use "./Object/Project/p-text-eat" as *;
+@use "./Object/Project/p-sidebar" as *;
+@use "./Object/Project/p-footer" as *;
+@use "./Object/Project/p-map" as *;
+@use "./Layout/l-body" as *;
+@use "./Object/Project/p-shadow" as *;
+@use "./Object/Project/p-fixed" as *;
+

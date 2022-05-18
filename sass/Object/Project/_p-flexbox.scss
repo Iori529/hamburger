@@ -1,0 +1,13 @@
+.p-flexbox{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    @media screen and (max-width:1025px) {
+        gap: 3%;
+    }
+    @media screen and (max-width:600px) {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
