@@ -1,7 +1,6 @@
 .p-flexbox{
     display: flex;
-    justify-content: center;
-    gap: 5%;
+    gap: 8%;
     @media screen and (max-width:1025px) {
         gap: 3%;
     }
