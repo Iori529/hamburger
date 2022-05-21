@@ -1,9 +1,6 @@
 .p-flexbox{
     display: flex;
-    gap: 8%;
-    @media screen and (max-width:1025px) {
-        gap: 3%;
-    }
+    gap: 90px;
     @media screen and (max-width:600px) {
         flex-direction: column;
         align-items: center;

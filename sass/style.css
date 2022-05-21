@@ -193,12 +193,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 8%;
-}
-@media screen and (max-width: 1025px) {
-  .p-flexbox {
-    gap: 3%;
-  }
+  gap: 90px;
 }
 @media screen and (max-width: 600px) {
   .p-flexbox {
@@ -220,6 +215,7 @@ body {
   min-height: 1193px;
   background-image: url(../images/tububargar.png);
   background-size: cover;
+  background-position: center center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -230,7 +226,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-left: 60px;
+  margin-left: 70px;
   /*@media screen and (max-width:1265px) {
       width: 380px;
   }
@@ -353,6 +349,7 @@ body {
   min-height: 1193px;
   background-image: url(../images/potatobarger.png);
   background-size: cover;
+  background-position: center center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -363,7 +360,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-right: 60px;
+  margin-right: 70px;
   /*@media screen and (max-width:1265px) {
       width: 380px;
   }
@@ -740,5 +737,61 @@ body {
   width: 95%;
   color: #3C2A10;
   font-weight: lighter;
+}
+
+.p-archive-chieze {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+  max-width: 1060px;
+}
+.p-archive-chieze div {
+  background-image: url("../images/chiezee.png");
+  height: 471px;
+  width: 50%;
+}
+.p-archive-chieze__section {
+  height: 471px;
+  width: 50%;
+  background-color: #3C2B1C;
+}
+.p-archive-chieze h1 {
+  display: block;
+  width: 85%;
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-top: 53px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 47px;
+  text-align: left;
+}
+.p-archive-chieze h2 {
+  display: block;
+  width: 85%;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 17px;
+}
+.p-archive-chieze p {
+  display: block;
+  width: 85%;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: lighter;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.p-archive-flexbox {
+  width: auto;
 }
 /*# sourceMappingURL=style.css.map */
