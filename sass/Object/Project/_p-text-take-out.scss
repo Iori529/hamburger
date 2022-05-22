@@ -37,7 +37,7 @@
 }
 
 .p-text-take-out{
-    width: 466px;
+    width: 40%;
     min-height: 1193px;
     background-image: url(../images/tububargar.png);
     background-size: cover;
@@ -57,6 +57,7 @@
     }*/
     @media screen and (max-width:600px) {
         margin-left: initial;
+        width: 466px;
     }
     h1{
         margin-top: 20px;

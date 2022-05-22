@@ -211,7 +211,7 @@ body {
 }
 
 .p-text-take-out {
-  width: 466px;
+  width: 40%;
   min-height: 1193px;
   background-image: url(../images/tububargar.png);
   background-size: cover;
@@ -240,6 +240,7 @@ body {
 @media screen and (max-width: 600px) {
   .p-text-take-out {
     margin-left: initial;
+    width: 466px;
   }
 }
 .p-text-take-out h1 {
@@ -345,7 +346,7 @@ body {
 }
 
 .p-text-eat {
-  width: 466px;
+  width: 40%;
   min-height: 1193px;
   background-image: url(../images/potatobarger.png);
   background-size: cover;
@@ -787,6 +788,16 @@ body {
   color: #ffffff;
   font-weight: lighter;
   text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+.p-archive-chieze button {
+  color: #707070;
+  background-color: #ffffff;
+  width: 250px;
+  height: 76px;
+  margin-top: 60px;
+  margin-bottom: 60px;
   margin-left: auto;
   margin-right: auto;
 }
