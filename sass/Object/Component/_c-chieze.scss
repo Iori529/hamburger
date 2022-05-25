@@ -10,6 +10,9 @@
     max-width: 1060px;
     min-height: 585px;
     flex-direction: column;
+    @media screen and (min-width:600px) {
+        width: 91%;
+    }
     div{
         background-image: url("../images/chiezee.png");
         background-repeat: no-repeat;
